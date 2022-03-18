@@ -9,14 +9,15 @@ Saya Yosafat (2009929) mengerjakan evaluasi Latihan 5 dalam mata kuliah Desain d
 
 ## Soal
 Pada bagian ini, kita akan menggunakan program GUI DataMahasiswa yang bisa kalian download disini. Pada program ini, kalian bisa lihat beberapa fitur masih belum berjalan dengan baik dan beberapa style juga belum terlihat baik. Disini kalian perlu memperbaiki masalah tersebut berdasarkan poin yang dijabarkan di bawah ini:
-1. Mengganti font dan ukuran teks
-2. Mengubah nama variabel setiap komponen (misal komponen input NIM diberi nama variabel txtNim)
-3. Menambahkan validasi ketika inputan tidak lengkap, seperti memunculkan pesan error menggunakan class JOptionPane
-4. Menghapus data pada label inputan ketika sudah selesai add, update, delete, maupun ketika menekan tombol cancel
-5. Mengupdate tabel setiap kali ada perubahan pada data hasil add, update dan delete
+a. Mengganti font dan ukuran teks
+b. Mengubah nama variabel setiap komponen (misal komponen input NIM diberi nama variabel txtNim)
+c. Menambahkan validasi ketika inputan tidak lengkap, seperti memunculkan pesan error menggunakan class JOptionPane
+d. Menghapus data pada label inputan ketika sudah selesai add, update, delete, maupun ketika menekan tombol cancel
+e. Mengupdate tabel setiap kali ada perubahan pada data hasil add, update dan delete
 
 Bonus:
 Menambahkan atribut inputan baru selain yang sudah ada pada form, namun tetap berkaitan dengan data mahasiswa. Pastikan penambahan ini ditampilkan juga di tabel
+
 
 ### Screenshot
 #### Poin-a
@@ -24,20 +25,24 @@ Menambahkan atribut inputan baru selain yang sudah ada pada form, namun tetap be
 
 Untuk mengganti font dan ukuran teks dapat dilakukan dengan membuka menu properties dari Label, Button, Textfield, dan Swing Control lainnya.
 
+
 #### Poin-b
 ![poin-b](https://user-images.githubusercontent.com/77567907/159034394-9450e727-47d3-4602-a3a1-6b0434b9a9e8.jpg)
 
 Mengubah nama variabel setiap komponen dapat dilakukan dengan membuka menu properties, pada sub bagian code dengan nama Variable name.
+
 
 #### Poin-c
 ![poin-c](https://user-images.githubusercontent.com/77567907/159034396-a74352e4-77a8-49de-9ca5-2824f77d442a.jpg)
 
 Untuk menambahkan validasi ketika inputan tidak lengkap dapat dilakukan dengan menambahkan kondisi pada prosedur insertData yaitu jika nim, nama, dan nilai kosong maka akan menampilkan dialog message, untuk mengecek apakah nim, nama, dan nilai kosong dapat dilakukan dengan menggunakan fungsi isBlank. Jika memenuhi kondisi isBlank maka panggil JOptionPane fungsi showMessageDialog kemudian tambahkan pesan validasi pada fungsi tersebut. Sedangkan untuk kondisi jika inputan nim, nama, dan nilai terisi maka dapat langsung membuat objek list kemudian menampilkan data.
 
+
 #### Poin-d
 ![poin-d](https://user-images.githubusercontent.com/77567907/159034400-127db5f4-e757-48a6-824a-6d5b97ba22ba.jpg)
 
 Untuk menghapus data pada label inputan ketika sudah selesai add, update, delete, dan menekan cancel dapat dilakukan dengan menambahkan value dari syntax setText menjadi null, misal inputNama.setText(null) <- ini untuk menghapus data pada label nama. deklarasi syntax tersebut dilakukan pada setiap prosedur yang akan digunakan yaitu insertData(), updateData(), deleteData(), dan CancelButtonActionPerfomed().
+
 
 #### Poin-e
 ![poin-e](https://user-images.githubusercontent.com/77567907/159034375-b048160d-29e3-4979-966c-8106970b8077.jpg)
