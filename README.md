@@ -20,16 +20,16 @@ Menambahkan atribut inputan baru selain yang sudah ada pada form, namun tetap be
 
 ### Screenshot
 #### Poin-a
-![poin-e](https://user-images.githubusercontent.com/77567907/159034375-b048160d-29e3-4979-966c-8106970b8077.jpg)
-
-#### Poin-b
 ![poin-a](https://user-images.githubusercontent.com/77567907/159034385-44b02559-fd0d-4b8a-a07d-57eb091656e2.jpg)
 
-#### Poin-c
+#### Poin-b
 ![poin-b](https://user-images.githubusercontent.com/77567907/159034394-9450e727-47d3-4602-a3a1-6b0434b9a9e8.jpg)
 
-#### Poin-d
+#### Poin-c
 ![poin-c](https://user-images.githubusercontent.com/77567907/159034396-a74352e4-77a8-49de-9ca5-2824f77d442a.jpg)
 
-#### Poin-e
+#### Poin-d
 ![poin-d](https://user-images.githubusercontent.com/77567907/159034400-127db5f4-e757-48a6-824a-6d5b97ba22ba.jpg)
+
+#### Poin-e
+![poin-e](https://user-images.githubusercontent.com/77567907/159034375-b048160d-29e3-4979-966c-8106970b8077.jpg)
